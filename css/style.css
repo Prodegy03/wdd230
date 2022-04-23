@@ -1,16 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 header {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;       
+    grid-template-columns: 1fr 1fr;
+    background-color: crimson;       
 }
 header img{
     grid-column-start:1;
+    width: 50%;
 }
 
-header h3{
-    grid-column-start: 5;
-    background-color: crimson; 
+header h1{
+    grid-column-start: 2;
+    text-align: center;
 }
 .content{
     display: inline-block; 
   } 
+  footer{
+      background-color: blueviolet;
+  }
+  main{
+      text-align: center;
+      list-style: none;
+  }
