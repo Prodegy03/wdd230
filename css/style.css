@@ -2,11 +2,13 @@
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: crimson;      
+    background-color: crimson;    
+    border-radius: 25px;  
 }
 header img{
     grid-column-start:1;
     width: 50%;
+    border-radius: 25px ;
 }
 
 header h1{
