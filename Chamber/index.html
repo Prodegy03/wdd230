@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamber</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
     <div id="content">
@@ -18,17 +20,35 @@
           <div class="logo-box">
              <img src="images/logo.jpg" alt="Logo image">
           </div>
-          <nav><ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-            </ul></nav>
+         
+          <nav>
+            <div class="topnav">
+              <a href="index.html" class="active">Home</a>
+              <!-- Navigation links (hidden by default) -->
+              <div id="myLinks">
+                <a href="index.html">Home</a>
+                <a href="#">Discover</a>
+                <a href="#">Directory</a>
+                <a href="#">Join</a>
+                <a href="#">Contact</a>
+              </div>
+              <script src="../js/hamburger.js"></script>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+                <div>
+              </nav>
         </header>
             <div class="banner-image">
-              <img class="banner-image" src="images/wdd230-org.jpg" alt="banner">  
-            </div>    
+              <img class="banner-image" src="#" alt="banner">  
+            </div> 
+            <div class="weather">
+              <img class="weather" src="#" alt="weather">
+            </div> 
+            <div class="hero">
+              <img class="hero" src="#" alt="hero">
+            </div>   
              <main>
                <div class= "home-grid">
                  <h2 class="home-headline-1">
@@ -45,6 +65,9 @@
                  <p class="home-paragraph-2">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <div class="action">
+            <img class="action" src="#" alt="call-to-action">
+          </div>   
                <img class="home-left-image" src="#" alt="image">
         
               
@@ -60,11 +83,28 @@
                  </section>
           
                </div>
-          
+               <div class="news">
+                <img class="news" src="#" alt="news">
+              </div>   
+              <div class="join">
+                <img class="join" src="#" alt="join">
+              </div>   
+              <div class="spot1">
+                <img class="spot1" src="#" alt="spotlight_1">
+              </div>   
+              <div class="spot1">
+                <img class="spot1" src="#" alt="spotlight_2">
+              </div>  
+              <div class="spot1">
+                <img class="spot1" src="#" alt="spotlight_3">
+              </div>  
+              <div class="contact">
+                <img class="contact" src="#" alt="contact_info">
+              </div>  
           </main>
           <footer>
             <p class="text">
-            .:| &copy; <span id="year"></span> | Spencer C. | Utah |:.
+            .:| &copy; <span id="year"></span> | Spencer C. | Utah |BraceBridge Chamber of Commerce:.
           <br />
           .:| Last Modified: <span id="modified"></span> |:.
         </p>
@@ -84,10 +124,14 @@
             <a href = "https://www.pinterest.com/" target="_blank">
             <img class= "1" src="https://byui-cit.github.io/wdd130/images/icons/color/pinterest.png" alt="pinterest">
             </a>  
-           
+            <div class="logo-box1">
+              <img src="images/logo.jpg" alt="Logo image">
+           </div>
+          
         </footer>
       <script src="../js/year.js"></script>
       <script src="../js/lastmodified.js"></script>
+      
   
             </div> 
 </body>

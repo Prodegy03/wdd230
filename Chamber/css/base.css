@@ -6,10 +6,52 @@ html{
     margin-right: auto;
     width: 40%;
 }
+/* Style the navigation menu */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(237, 216, 216);
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+.topnav a {
+    color: rgb(20, 19, 19);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+.topnav a.icon {
+    background: white;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+.topnav a:hover {
+    background-color: rgb(214, 30, 30);
+    color: rgb(242, 228, 228);
+  }
+  
+  /* Style the active link (or home/logo) */
+.active {
+    background-color: #aa04aa;
+    color: rgb(146, 19, 19);
+  }
 header {
+    grid-column: span;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: crimson;    
+    background-color: none;    
     border-radius: 25px;  
 }
 header img{
@@ -26,6 +68,7 @@ header h1{
   } 
   footer{
       background-color: blueviolet;
+      
   }
   main{
       text-align: center;
@@ -37,3 +80,8 @@ header h1{
       text-align: center;
       color: white;
   }
+  footer img{
+    width: 5%;
+    border-radius: 25px ;
+    display:inline;
+}
