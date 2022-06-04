@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 body ul{
     list-style: none;
   }
@@ -8,7 +9,13 @@ body ul{
     width: 40%;
     justify-items: center;
     background-color: violet;
+  
+  }
+  body{
+    display: grid;
+    grid-template-columns: 1fr;
   }
   img{
     max-width: 50%;
   }
+  

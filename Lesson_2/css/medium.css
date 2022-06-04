@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
+
+body ul{
+    list-style: none;
+  }
+  html {
+    max-width: 43em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    justify-items: center;
+    background-color: violet;
+   
+  }
+  body{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  img{
+    max-width: 50%;
+  }
+#section_1 {
+    grid-column: 1 ;
+    grid-row: 1 ;
+}
+#section_2{
+  grid-column-start: 1 ;
+  grid-row: 2;
+}
+#section_3{
+  grid-column-start: 1 ;
+  grid-row: 3;
+}
+#section_4{
+  grid-column-start: 1 ;
+  grid-row: 4;
+}
+#section_5{
+  grid-column-start: 1 ;
+  grid-row: 5;
+}
+#section_6{
+  grid-column-start: 2 ;
+  grid-row: 1;
+}
+#section_7{
+  grid-column-start: 2 ;
+  grid-row: 2;
+}
+#section_8{
+  grid-column-start: 2 ;
+  grid-row: 3;
+}
+#section_9{
+  grid-column-start: span;
+  grid-row: 4;
+}
