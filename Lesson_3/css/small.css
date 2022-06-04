@@ -18,8 +18,8 @@
   --paragraph-color-on-white: #212529; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #EBF2FA; /* paragraph text on a colored background */ 
   --text-background-color: #000000;
-  --nav-link-color: #396E94;
-  --nav-background-color: #EBF2FA;
+  --nav-link-color: #eff6fb;
+  --nav-background-color: #3d88de;
   --nav-hover-link-color: #A43312;
   --nav-hover-background-color: #396E94;
 }
@@ -51,7 +51,10 @@ header {
 header > h1, header > h2 {
   color: var(--headline-color-on-color);
 }
-
+ul{
+  list-style: none;
+  text-align: left;
+}
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color);
