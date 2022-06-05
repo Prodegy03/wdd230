@@ -1,3 +1,4 @@
+@media only screen and (max-width: 33em){
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 
 html{
@@ -80,7 +81,7 @@ header h1{
   footer{
       background-color: blueviolet;
         grid-row: 6;
-        grid-column: 1 6; 
+        grid-column: 1 -1; 
   }
   main{
       text-align: center;
@@ -96,4 +97,5 @@ header h1{
     width: 5%;
     border-radius: 25px ;
     display:inline;
+}
 }

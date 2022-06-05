@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 33em) {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
     html{
         min-width: 33em;
@@ -71,11 +71,12 @@
         justify-content: right;
         align-items: right;
         display: block;
+        grid-column: -2 -1;
       }
     footer{
         background-color: blueviolet;
           grid-row: 6;
-          grid-column: 1 6; 
+          grid-column: 1 -1; 
         }
       main{
           text-align: center;
