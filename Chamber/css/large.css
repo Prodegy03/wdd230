@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
     html{
         min-width: 65em;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
     }
     header {
@@ -10,6 +12,12 @@
         background-color: crimson;    
         border-radius: 25px;  
     }
+    .sideimg{
+     justify-content: right;
+     align-items: right;
+     display: block;
+     grid-column: 4;
+      }
     header img{
         grid-column-start:1;
         width: 50%;
@@ -21,9 +29,6 @@
     .content{
         display: inline-block; 
       } 
-      footer{
-          background-color: blueviolet;
-      }
       main{
           text-align: center;
       }
@@ -34,4 +39,9 @@
           text-align: center;
           color: white;
       }
+}
+footer{
+    background-color: blueviolet;
+      grid-row: 6;
+      grid-column: 1 6; 
 }
