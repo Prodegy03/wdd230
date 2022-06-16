@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    min-width: 44em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    justify-items: center;
+    background-color: rgb(169, 131, 221);
+   
+  }
