@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
+:root {
+    --b_1: hsl(188, 42%, 64%);
+    --b_2: hsl(204, 28%, 49%);
+    --f_dark: rgb(18, 16, 16);
+    --f_light: rgb(251, 236, 236);
+    --border: rgb(45, 44, 44);
+    --b_light: rgb(113, 105, 105);
+    --shadow: hsl(0, 2%, 19%);
+    --zebra_odd: rgb(182, 234, 196);
+    --zebra_even: rgb(243, 247, 246);
+    --font: sans-serif;
+}
+
+body {
+    font-family: var(--font);
+}
+
+table {
+    margin: 10px auto;
+    border: thin solid var(--border);
+    box-shadow: 15px 15px 15px 0 var(--shadow);
+    border-collapse: collapse;
+    border-radius: 50px;
+}
+
+thead>tr>th {
+    background-color: var(--b_1);
+    font-size: 1.5rem;
+    color: black;
+}
+
+th, td {
+    padding: 7px 15px;
+    border: 1px solid var(--b_light);
+}
+
+th {
+    background-color: var(--b_2);
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: var(--zebra_odd);
+}
+tbody tr:nth-child(even) {
+    background-color: var(--zebra_even);
+}
+
+tfoot>tr>th {
+    font-size: .7rem;
+    background-color: var(--b_1);
+}
+
+.table_head {
+    color: var(--f_light)
+}
+
+#blk_fri {
+    font-style: italic;
+}
+
+#nov_goal {
+    color: var(--f_light);
+    background-color: var(--b_2);
+}
+
+@media only screen and (max-width: 320px) {
+    body {
+        font-size: .65em;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    body {
+        font-size: 2em;
+    }
+}
