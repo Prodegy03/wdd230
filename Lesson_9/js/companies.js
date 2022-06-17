@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+const requestURL = 'wdd230\Chamber\data.jason';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
@@ -8,33 +8,35 @@ fetch(requestURL)
   .then(function (jsonObject) {
     console.table(jsonObject);  // temporary checking for valid response and data parsing
   
-  const prophets = jsonObject['prophets'];
-  prophets.forEach(displayProphets);
+  const buisness = jsonObject['buisness'];
+  buisness.forEach(displaybuisness);
 });
 
-  function displayProphets(prophet) {
+  function displaybuisness(buisness) {
     // Create elements to add to the document
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
-    let birthdate = document.createElement('p');
-    let birthplace = document.createElement('p');
-  
-    // Change the textContent property of the h2 element to contain the prophet's full name
-    h2.textContent = prophet.name + ' ' + prophet.lastname;
-    birthdate.innerHTML = `Birthdate: ${prophet.birthdate}`;
-    birthplace.innerHTML = `Birth Place: ${prophet.birthplace}`;
+    let membership = document.createElement('p');
+    let website = document.createElement('p');
+    let email = document.createElement('p');
 
+    // Change the textContent property of the h2 element to contain the prophet's full name
+    h2.textContent = buisness.name + ' ' + buisness.membership;
+    buisnessname.innerHTML = `Buisness Name: ${buisness.name}`;
+    membership.innerHTML = `Membership: ${buisness.membership}`;
+    website.innerHTML =`Website: ${buisness.website}`;
+    email.innerHTML =`Email: ${buisness.email}`;
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    portrait.setAttribute('src', prophet.imageurl);
-    portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname} - ${prophet.order}th Latter-day President`);
+    portrait.setAttribute('src', buisness.imageurl);
+    portrait.setAttribute('alt', `Portrait of ${buisness.name} ${buisness.membership}`);
     portrait.setAttribute('loading', 'lazy');
   
     // Add/append the section(card) with the h2 element
     card.appendChild(h2);
     card.appendChild(portrait);
-    card.appendChild(birthdate);
-    card.appendChild(birthplace);
+    card.appendChild(buisnessname);
+    card.appendChild(membership);
   
     // Add/append the existing HTML div with the cards class with the section(card)
     document.querySelector('div.cards').appendChild(card);

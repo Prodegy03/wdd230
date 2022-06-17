@@ -1,0 +1,105 @@
+
+  {
+  "buisness": [
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "Spencer Christensen",
+      "address": "1234 that St Clearfield, Utah",
+      "phone": 702-786-8983 ,
+      "website":  "somewebsite.com",
+      "membership": "Gold",
+      "imageurl": "wdd230\Chamber\images\Family Picture.jpeg"
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "Gold",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "silver",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "silver",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website"somewebsite.com: ,
+      "membership": "bronze",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "bronze",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "NP",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "NP",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    {
+      "Buisness Name": "Albatross Cloud",
+      
+      "Owner/President": "",
+      "address": "",
+      "phone": ,
+      "website": somewebsite.com,
+      "membership": "NP",
+      "imageurl": ""
+      "email":"company_email@gmail.com"
+    },
+    
+  ]
+}
