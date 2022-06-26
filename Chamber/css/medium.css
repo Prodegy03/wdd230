@@ -3,7 +3,7 @@
     html{
         min-width: 33em;
         max-width: 64em;
-        grid-template-columns: auto auto ;
+        grid-template-columns: auto auto;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
     }
@@ -48,7 +48,6 @@
         background-color: #aa04aa;
         color: rgb(146, 19, 19);
       }
-  }
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -87,4 +86,16 @@
       .text{
           text-align: center;
           color: white;
+
       }
+      #weather{
+        border-style:groove;
+        border-width:10px;
+        border-color: red;
+        grid-column: 1 2;
+        text-align: center;
+        max-width: 400px;    
+      }
+      
+    }
+      

@@ -41,9 +41,17 @@ html{
           color: white;
       }
 
-      footer{
-    background-color: blueviolet;
-      grid-row: 6;
-      grid-column: 1 -1; 
-     }
-}
+      footer{background-color: blueviolet;
+        grid-row: 6;
+        grid-column: 1 -1;
+      }
+      .weather{
+        border-style:groove;
+        border-width:10px;
+        border-color: red;
+        grid-column: 1 2;
+        text-align: center;
+        max-width: 600px;
+      }
+      
+    }
