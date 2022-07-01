@@ -1,4 +1,4 @@
-const requestURL = 'wdd230\Chamber\data.jason';
+const requestURL = 'wdd230\Chamber\data.json';
 const cards = document.querySelector('.cards');
 
 fetch(requestURL)
