@@ -6,10 +6,10 @@
       
       "Owner/President": "Spencer Christensen",
       "address": "1234 that St Clearfield, Utah",
-      "phone": 702-786-8983 ,
+      "phone": "702-786-8983" ,
       "website":  "somewebsite.com",
       "membership": "Gold",
-      "imageurl": "https://prodegy03.github.io/wdd230/Chamber/images/Family%20Picture.jpeg"
+      "imageurl": "https://prodegy03.github.io/wdd230/Chamber/images/Family%20Picture.jpeg",
       "email":"company_email@gmail.com"
     },
     {
