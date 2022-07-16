@@ -9,7 +9,7 @@ fetch(requestURL)
     console.table(jsonObject);  // temporary checking for valid response and data parsing
   
   const Temples = jsonObject['Temples'];
-  prophets.forEach(displayProphets);
+  Temples.forEach(displayTemples);
 });
 
   function displayTemples(Temples) {
