@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
+
+html {
+    background-color: rgb(232, 229, 236); 
+  }
+  section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-color: rgb(7, 6, 6);
+  }
+  h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-color: rgb(7, 6, 6); 
+  }
+  #cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-width: 5px;
+    border-color: rgb(7, 6, 6); 
+  }
