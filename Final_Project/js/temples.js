@@ -20,7 +20,7 @@ fetch(requestURL)
     let Name = document.createElement('p');
     let Dedication = document.createElement('p');
     let Location = document.createElement('p');
-    let Appointment = document.createElement('p');
+    let Appointment = document.links('p');
     let Phone = document.createElement('p');
     let Address = document.createElement('p');
     let Services = document.createElement('p');
