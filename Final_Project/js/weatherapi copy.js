@@ -3,7 +3,7 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const url = 'https://api.openweathermap.org/data/2.5/weather?q=Bethesda&units=imperial&appid=8a2d3fb4743e046ec11cf1018a71c441'
+const url = 'https://api.openweathermap.org/data/2.5/weather?q=Bracebridge&units=imperial&appid=4b144f01b59d994b551694a22724c2b1'
 
 async function apiFetch() {
     try {
