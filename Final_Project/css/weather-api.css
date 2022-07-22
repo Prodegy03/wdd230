@@ -6,10 +6,9 @@
         margin-left: auto;
         margin-right: auto;
         width: 40%;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
-        background-color: red;
+        background-color: rgb(242, 233, 233);
+        justify-content: center;
+        text-align: center;
     
     }
     .sideimg{
@@ -51,14 +50,14 @@
       
       /* Add a grey background color on mouse-over */
     .topnav a:hover {
-        background-color: rgb(214, 30, 30);
+        background-color: rgb(235, 230, 230);
         color: rgb(242, 228, 228);
       }
       
       /* Style the active link (or home/logo) */
     .active {
         background-color: #aa04aa;
-        color: rgb(146, 19, 19);
+        color: rgb(191, 150, 150);
       }
     header {
         grid-column: span;

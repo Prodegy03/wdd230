@@ -1,4 +1,4 @@
-const currentTemp = document.querySelector('#current-temp');
+const currentTemp = document.querySelector('.current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 const url = "http://api.openweathermap.org/data/2.5/weather?q=Bethesda&units=imperial&appid=8a2d3fb4743e046ec11cf1018a71c441";
