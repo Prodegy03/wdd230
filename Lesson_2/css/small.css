@@ -1,3 +1,4 @@
+@media only screen and (max-width: 32.5em) {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 body ul{
     list-style: none;
@@ -18,4 +19,4 @@ body ul{
   img{
     max-width: 50%;
   }
-  
+}

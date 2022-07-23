@@ -1,3 +1,5 @@
+@media only screen and (max-width: 45em) {
+@media only screen and (min-width: 32.5em) {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 
 body ul{
@@ -55,4 +57,6 @@ body ul{
 #section_9{
   grid-column-start: span;
   grid-row: 4;
+}
+}
 }

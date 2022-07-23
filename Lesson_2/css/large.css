@@ -1,3 +1,4 @@
+@media only screen and (min-width: 45.5em) {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
 
 html {
@@ -75,3 +76,4 @@ img{
     grid-column: 3;
     grid-row: 4;
   }
+}
