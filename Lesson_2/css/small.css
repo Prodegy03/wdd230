@@ -16,6 +16,25 @@ body ul{
     display: grid;
     grid-template-columns: 1fr;
   }
+  body {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:.35fr 1fr 1fr 1fr;
+    row-gap: -5em;
+    column-gap: 5px;
+  }
+body ul{
+    list-style: none;
+    grid-column:1/4;
+    text-align: center;
+    border-width: -5em;
+    border-style: ridge;
+    border-color: red;
+    max-height: 200px;
+    grid-row:1;
+    
+
+  }
   img{
     max-width: 50%;
   }
