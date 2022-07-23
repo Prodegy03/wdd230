@@ -21,7 +21,7 @@ html{
 /* Style the navigation menu */
 .topnav {
     overflow: hidden;
-    background-color: rgb(237, 216, 216);
+    background-color: rgb(146, 19, 19);
     position: relative;
   }
   
@@ -32,7 +32,7 @@ html{
   
   /* Style navigation menu links */
 .topnav a {
-    color: rgb(20, 19, 19);
+    color:  rgb(146, 19, 19);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -41,7 +41,7 @@ html{
   
   /* Style the hamburger menu */
 .topnav a.icon {
-    background: white;
+    background:  rgb(146, 19, 19);
     display: block;
     position: absolute;
     right: 0;
@@ -50,13 +50,13 @@ html{
   
   /* Add a grey background color on mouse-over */
 .topnav a:hover {
-    background-color: rgb(214, 30, 30);
-    color: rgb(242, 228, 228);
+    background-color:  rgb(146, 19, 19);
+    color:  rgb(146, 19, 19);
   }
   
   /* Style the active link (or home/logo) */
 .active {
-    background-color: #aa04aa;
+    background-color:  rgb(146, 19, 19);
     color: rgb(146, 19, 19);
   }
 header {
@@ -79,7 +79,7 @@ header h1{
     display: inline-block; 
   } 
   footer{
-      background-color: blueviolet;
+      background-color:  rgb(146, 19, 19);
         grid-row: 6;
         grid-column: 1 -1; 
   }

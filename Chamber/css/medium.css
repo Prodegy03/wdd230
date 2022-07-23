@@ -10,7 +10,7 @@
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;
-        background-color: rgb(237, 216, 216);
+        background-color:  rgb(146, 19, 19);
         position: relative;
       }
       
@@ -30,7 +30,7 @@
       
       /* Style the hamburger menu */
     .topnav a.icon {
-        background: white;
+        background:  rgb(208, 180, 180);
         display: block;
         position: absolute;
         right: 0;
@@ -40,12 +40,12 @@
       /* Add a grey background color on mouse-over */
     .topnav a:hover {
         background-color: rgb(214, 30, 30);
-        color: rgb(242, 228, 228);
+        color:  rgb(146, 19, 19);
       }
       
       /* Style the active link (or home/logo) */
     .active {
-        background-color: #aa04aa;
+        background-color:  rgb(146, 19, 19);
         color: rgb(146, 19, 19);
       }
     header {
@@ -73,7 +73,7 @@
         grid-column: -2 -1;
       }
     footer{
-        background-color: blueviolet;
+        background-color:  rgb(146, 19, 19);
           grid-row: 6;
           grid-column: 1 -1; 
         }
@@ -85,7 +85,7 @@
       }
       .text{
           text-align: center;
-          color: white;
+          color:  rgb(146, 19, 19);
 
       }
       #weather{

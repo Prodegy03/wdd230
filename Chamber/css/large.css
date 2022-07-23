@@ -38,10 +38,10 @@ html{
       }
       .text{
           text-align: center;
-          color: white;
+          color:  rgb(146, 19, 19);
       }
 
-      footer{background-color: blueviolet;
+      footer{background-color:  rgb(146, 19, 19);
         grid-row: 6;
         grid-column: 1 -1;
       }
