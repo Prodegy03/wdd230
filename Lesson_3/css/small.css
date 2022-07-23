@@ -92,9 +92,15 @@ p.colored {
   background-color: var(--text-background-color);
   color: var(--paragraph-color-on-color);
 }
-
-nav {
+ul{
   background-color: var(white);
+  line-height: 3em;
+  text-align: center;
+  font-size: 1.2em rgb(197, 163, 163);
+  display: flex;
+}
+nav {
+  background-color: var(rgb(159, 76, 76));
   line-height: 3em;
   text-align: center;
   font-size: 1.2em;
