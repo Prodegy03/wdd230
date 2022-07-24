@@ -6,6 +6,10 @@ html{
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
     }
+    .hero{
+      grid-column: -2 -1;
+      max-width: 300px;
+    }
     header {
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -11,6 +11,10 @@ html{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
 
 }
+.hero{
+  grid-column: -2 -1;
+  max-width: 300px;
+}
 .sideimg{
   justify-content: right;
   align-items: right;
