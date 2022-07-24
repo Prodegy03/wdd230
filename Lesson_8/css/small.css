@@ -11,7 +11,7 @@
     --zebra_even: rgb(243, 247, 246);
     --font: Ubuntu;
 }
-q1  2q1 2q1 2q1 2q1 2q1 2q1 2q1 2q1 2q1 2q1 2w
+
 body {
     font-family: var(--font);
 }
