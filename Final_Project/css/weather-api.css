@@ -62,8 +62,7 @@
     header {
         grid-column: span;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        background-color: none;    
+        grid-template-columns: 1fr 1fr;    
         border-radius: 25px;  
     }
     header img{
