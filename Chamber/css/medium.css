@@ -9,6 +9,9 @@
         background-color: rgb(146, 19, 19);
 
     }
+    .logo-box1{
+      max-width: 300px;
+    }
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;

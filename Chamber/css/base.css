@@ -12,6 +12,9 @@ html{
     background-color: rgb(146, 19, 19);
 
 }
+.logo-box1{
+  max-width: 300px;
+}
 .hero{
   grid-column: -2 -1;
   max-width: 300px;
