@@ -18,7 +18,7 @@ fetch(requestURL)
     let h2 = document.createElement('h2');
     let portrait = document.createElement('img');
     let Name = document.createElement('p');
-    let Dedication = document.createElement('p');
+    let Dedicated = document.createElement('p');
     let Location = document.createElement('p');
     let Appointment = document.links('p');
     let Phone = document.createElement('p');
@@ -29,7 +29,7 @@ fetch(requestURL)
     // Change the textContent property of the h2 element to contain the prophet's full name
     h2.textContent = Temples.Name;
     Name.innerHTML = `Name: ${Temples.Name}`;
-    Dedication.innerHTML = `Dedication: ${Temples.Dedication}`;
+    Dedicated.innerHTML = `Dedication: ${Temples.Dedicated}`;
     Location.innerHTML = `Location: ${Temples.Location}`;
     Appointment.innerHTML = `Appointment: ${Temples.Appointment}`;
     Phone.innerHTML = `Phone: ${Temples.Phone}`;
@@ -47,7 +47,7 @@ fetch(requestURL)
     card.appendChild(h2);
     card.appendChild(portrait);
     card.appendChild(Name);
-    card.appendChild(Dedication);
+    card.appendChild(Dedicated);
     card.appendChild(Location);
     card.appendChild(Appointment);
     card.appendChild(Phone);
