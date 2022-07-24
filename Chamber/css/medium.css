@@ -12,6 +12,9 @@
     .logo-box1{
       max-width: 300px;
     }
+    .img{
+      max-width: 300px;
+    }
     /* Style the navigation menu */
     .topnav {
         overflow: hidden;

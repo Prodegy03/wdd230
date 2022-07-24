@@ -15,6 +15,9 @@ html{
 .logo-box1{
   max-width: 300px;
 }
+.img{
+  max-width: 300px;
+}
 .hero{
   grid-column: -2 -1;
   max-width: 300px;
