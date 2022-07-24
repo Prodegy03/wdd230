@@ -4,11 +4,18 @@ html{
         min-width: 65em;
         grid-template-columns: auto auto auto;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: rgb(146, 19, 19);
 
     }
     .hero{
       grid-column: -2 -1;
       max-width: 300px;
+    }
+    .banner{
+      max-width: 300px;
+    }
+    .weather{
+      grid-column: 1 -1;
     }
     header {
         display: grid;

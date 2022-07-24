@@ -1,3 +1,4 @@
+@media only screen and (man-width: 43.5em){
 @media only screen and (min-width: 33em) {
 @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700&display=swap');
     html{
@@ -5,6 +6,7 @@
         max-width: 64em;
         grid-template-columns: auto auto;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        background-color: rgb(146, 19, 19);
 
     }
     /* Style the navigation menu */
@@ -75,6 +77,12 @@
         grid-column: -2 -1;
         max-width: 300px;
       }
+      .banner{
+        max-width: 300px;
+      }
+      .weather{
+        grid-column: 1 -1;
+      }
     footer{
           background-color:  rgb(146, 19, 19);
           grid-row: 6;
@@ -102,3 +110,4 @@
       
     }
       
+  }
