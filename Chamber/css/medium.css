@@ -10,11 +10,19 @@
 
     }
     .logo-box1{
-      max-width: 2%;
+      max-width: 25%;
     
     }
+
+    .home-right-image{
+      max-width: 25%; 
+      grid-column: 2 -2;
+     }
+     .action.img{
+      width: .02%;
+    }
     .img{
-      max-width: 2%;
+      max-width: 25%;
     }
     .hero{
       grid-column: -2 -1;
