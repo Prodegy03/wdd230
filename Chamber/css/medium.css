@@ -10,10 +10,15 @@
 
     }
     .logo-box1{
-      max-width: 300px;
+      max-width: 25%;
+    
     }
     .img{
-      max-width: 300px;
+      max-width: 25%;
+    }
+    .hero{
+      grid-column: -2 -1;
+      max-width: 25%;
     }
     /* Style the navigation menu */
     .topnav {
