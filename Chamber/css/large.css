@@ -8,15 +8,15 @@ html{
 
     }
     .logo-box1{
-      max-width: 25%;
+      max-width: 2%;
     
     }
     .img{
-      max-width: 25%;
+      max-width: 2%;
     }
     .hero{
       grid-column: -2 -1;
-      max-width: 25%;
+      max-width: 2%;
     }
     .banner{
       max-width: 300px;
