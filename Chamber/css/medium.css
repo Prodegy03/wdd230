@@ -5,7 +5,7 @@
         min-width: 33em;
         max-width: 64em;
         grid-template-columns: auto auto;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+       
         background-color: rgb(146, 19, 19);
 
     }
@@ -105,9 +105,9 @@
         grid-column: 1 -1;
       }
     footer{
-          background-color:  rgb(146, 19, 19);
-          grid-row: 6;
+          background-color:  rgb(17, 14, 14);
           grid-column: 1 -1; 
+          grid-row: -1;
         }
       main{
           text-align: center;
@@ -116,8 +116,9 @@
         list-style: none;
       }
       .text{
+        background-color: black;
           text-align: center;
-          color:  rgb(146, 19, 19);
+          color:  rgb(231, 213, 213);
 
       }
       #weather{

@@ -113,8 +113,10 @@ header h1{
     list-style: none;
   }
   .text{
+    background-color: black;
       text-align: center;
-      color: white;
+      color:  rgb(231, 213, 213);
+
   }
   footer img{
     width: 5%;
