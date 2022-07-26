@@ -6,6 +6,14 @@
         background-color: crimson;    
         border-radius: 25px;  
     }
+    .services{
+        text-align: center;
+      }
+      .reservation{
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+      }
     h3{
         text-align: center;
     }

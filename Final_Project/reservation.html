@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservations</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <form class="reservation">
+        <h1>Reservation</h1>
+        <label for="fname">First name: </label><input type="text" id="fname" name="fname" required placeholder="First Name"><br>
+  <label for="lname">Last name: </label><input type="text" id="lname" name="lname" required placeholder="Last Name"><br>
+  <label for="reason">Reason for stay: </label><input type="text" id="reason" name="reason" placeholder="reason"><br>
+  <label for="email">Email: </label><input type="email" id="email" name="email" required placeholder="Email"><br>
+  <label for="cell">Cell: </label><input type="tel" id="cell" name="cell" required placeholder="123-456-7891"><br>
+  <label for="begining">Stay Start Date: </label><input type="date" id="start" name="start" required placeholder="Start"><br>
+  <label for="end">Stay End Date: </label><input type="date" id="end" name="end" required placeholder="End"><br>
+  <input type="submit" value="Submit" >
+  <input type="hidden" value="year, lastmodified">
+  <script src="../js/year.js"></script>
+  <script src="../js/lastmodified.js"></script>
+    
+</body>
+</html>

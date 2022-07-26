@@ -10,6 +10,14 @@ html {
     background-color: rgb(244, 238, 244);
    
   }
+  .reservation{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+  }
+  .services{
+    text-align: center;
+  }
 body {
     display: grid;
     grid-template-rows:.35fr 1fr 1fr 1fr;
